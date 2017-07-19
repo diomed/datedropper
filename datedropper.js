@@ -158,6 +158,32 @@ jQuery.easing._dd_easing = function(x, t, b, c, d) {
                             'Sabato'
                         ];
                         break;
+			 //croatian
+                    case 'hr':
+                        var mn = [
+                            "Siječnja",
+                            "Veljače",
+                            "Ožujka",
+                            "Travnja",
+                            "Svibnja",
+                            "Lipnja",
+                            "Srpnja",
+                            "Kolovoza",
+                            "Rujna",
+                            "Listopada",
+                            "Studenog",
+                            "Prosinca"
+                        ];
+                        var dn = [
+                            'Nedjelja',
+                            'Ponedjeljak',
+                            'Utorak',
+                            'Srijeda',
+                            'Četvrtak',
+                            'Petak',
+                            'Subota'
+                        ];
+                        break;
                         //hungarian	
                     case 'hu':
                         var mn = [
